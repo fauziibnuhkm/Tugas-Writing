@@ -6,7 +6,7 @@ Unix Command Line
     - Shell merupakan sebutan untuk perantara yang digunakan user dan sistem operasi dalam berkomunikasi
     - Contoh terminal basic atau basic shell pada windows adalah powershell dan CMD
     - Command Line merupakan sebutan untuk shell yang berbasis teks
-    - Command Line interface merupakan tampilan dari sebuah terminal yang digunakan untuk menjalankan suatu program, mengelola file dan berinteraksi dengan komputer. command line interface
+    - Command Line interface merupakan tampilan dari sebuah terminal yang digunakan untuk menjalankan suatu program, mengelola file dan berinteraksi dengan komputer.
 
 a. Navigation files dan directory
 
@@ -17,7 +17,7 @@ a. Navigation files dan directory
 
 b. File Manipulation
 
-    Touch (namafile) digunakan untuk membuat file pada terminal basic di linux
+    Touch (namafile) digunakan untuk membuat file directory
     ni digunakan untuk membuat file di windows
     mkdir merupakan command untuk membuat directory baru
     cp digunakan untuk menyalin file
@@ -27,11 +27,12 @@ b. File Manipulation
     rm merupakan command untuk menghapus files
     rm -r digunakan untuk menghapus directory
 
+
 Git dan Github
 
     Git merupakan tools dalam memversikan program
     Git digunakan sebagai version control system serta dapat digunakan untuk melacak segala perubahan pada suatu file atau folder maupun source code
-    Vendor Git yaitu Github, Gitlab, Bitbucket Github merupakan vendor git yang paling umum digunakan dan sebagai tempat penyimpanan Git Repository
+    Vendor Git yaitu Github, Gitlab, Bitbucket. Github merupakan vendor git yang paling umum digunakan dan sebagai tempat penyimpanan Git Repository
 
 Setup Awal GIT
 Konfigurasi git
@@ -82,6 +83,14 @@ CSS (Cascading Style Sheets)
 Definisi CSS
 CSS adalah bahasa komputer yang digunakan untuk menambahkan design ke suatu halaman website di internet agar terlihat lebih cantik/menarik. CSS adalah singkatan dari Cascading Style Sheets. Kita ibaratkan HTML adalah kerangka yang memberi sturuktur pada website, maka CSS adalah baju yang memberi warna dan layout pada website. 
 
+Cara Menggunakan CSS
+a. Inline Style
+    Menambahkan CSS langsung pada atribut HTML
+b. Internal CSS
+    Menggunakan element/tag <style> untuk menyisipkan kode CSS dan diletakan di dalam <head>
+c. Eksternal CSS
+    Menyisipkan kode CSS dengan cara membuat file CSS terpisah lalu menyambungkan dengan file HTML dengan menggunakan element. Element tersebut diletakan didalam element
+
 CSS Syntax
 CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value. 
 
@@ -100,14 +109,14 @@ Algorithm and Pseudocode
     Algoritma adalah deskripsi berupa step-step yang dibutuhkan untuk mnyelesaikan suatu masalah
     Algoritma berfungsi untuk menyelesaikan masalah secara runut
     Kualitas suatu algoritma :
-        Input & output harus jelas/ didefinisikan terlebih dahulu dgn tepat
+        Input & output harus jelas/ didefinisikan terlebih dahulu dengan tepat
         Setiap step harus benar -benar clear dan tidak ambigu
         Algoritma seharusnya tidak mengandung suatu code pada bahas pemrograman tertentu.
         algoritma harus dibuat agar dapat digunakan dlm bahas pemrograman apapun
     Kenapa harus mempelajari algotima :
         Pemrograman merupakn algoritma dan struktur data
         Data struktur dgunakan untk mngelola sebuah data
-        Algoritma menyelesaikan suatu permsalahan mnggunakn sbuah data trsbut
+        Algoritma menyelesaikan suatu permsalahan menggunakan sebuah data tersebut.
     Contoh Algoritma
 
 Input 1 = 10
@@ -115,20 +124,13 @@ Input 2 = 5
 Output = Input 1 + Input 2
 Print ("Result", output)
 
-    Pseudocode merupakan tools yang digunakan untuk menulis algoritma
+    Pseudocode merupakan tools yang digunakan untuk menulis algoritma.
     Panduan menulis pseudocode :
         Huruf kapital digunakan untuk menulis perintah
         1 statement hanya terdiri dari 1 baris
         Menggunakan indentasi
         Harus bersifat spesifik dan simple
-    Contoh Pseudocode
-
-Deklarasi 
-Jam, Detik 
-INPUT jam 
-	  Convert Jam ke Detik (*3600)
-DISPLAY result
-
+        
     Jenis Pseudocode :
         Procedural : cara berpikir runut
         Conditional: jika dibutuhkan suatu percabangan masalah (if else)
