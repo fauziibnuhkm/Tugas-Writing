@@ -49,6 +49,7 @@ git branch -b [nama branch] digunakan untuk membuat branch baru
 git checkout digunakan untuk berpindah branch
 git merge digunakan untuk menggabungkan branch cabang ke branch master ( git merge origin/(nama branch))
 
+
 HTML
 Merupakan bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. Bagaimana peran HTML pada web development? Web browser seperti Chrome, Firefox, Edge, Safari, atau Opera akan membaca dokumen HTML. Dokumen HTML yang berisi tag-tag HTML akan memberitahu browser bagaimana cara menampilkan sebuah konten.
 
@@ -75,7 +76,8 @@ Contoh pada Tag
 <b>Tebal</b>
 <i>Miring</i>
 
-CSS
+
+CSS (Cascading Style Sheets)
 
 Definisi CSS
 CSS adalah bahasa komputer yang digunakan untuk menambahkan design ke suatu halaman website di internet agar terlihat lebih cantik/menarik. CSS adalah singkatan dari Cascading Style Sheets. Kita ibaratkan HTML adalah kerangka yang memberi sturuktur pada website, maka CSS adalah baju yang memberi warna dan layout pada website. 
