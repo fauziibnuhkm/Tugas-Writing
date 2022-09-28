@@ -8,22 +8,18 @@ Unix Command Line
     - Command Line merupakan sebutan untuk shell yang berbasis teks
     - Command Line interface merupakan tampilan dari sebuah terminal yang digunakan untuk menjalankan suatu program, mengelola file dan berinteraksi dengan komputer.
 
-a. Navigation files dan directory
+    Perintah dasar pada Unix Command Line
 
     pwd digunakan untuk melihat posisi directory terkini
-    ls digunakan untuk melihat isi files suatu directory ls - la untuk melihat isi files yang dihidden
+    ls digunakan untuk melihat isi files suatu directory, ada juga ls - a untuk melihat isi files yang tersembunya atau dihidden
     cd merupakan command untuk berpindah directory
     mkdir digunakan untuk membuat directory baru
-
-b. File Manipulation
-
-    Touch (namafile) digunakan untuk membuat file directory
+    Touch digunakan untuk membuat file directory
     ni digunakan untuk membuat file di windows
     mkdir merupakan command untuk membuat directory baru
     cp digunakan untuk menyalin file
     cp -r digunakan untuk menyalin directory
     mv digunakan untuk memindahkan atau mengubah nama file dan directory
-    mv [namafile] [namafilebaru]
     rm merupakan command untuk menghapus files
     rm -r digunakan untuk menghapus directory
 
@@ -59,9 +55,6 @@ Kerangka HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 </head>
 <body>
@@ -99,7 +92,7 @@ h1 {
 }
 
 Keterangan :
-H1 : Selektor 
+h1 : Selektor 
 Color : Property 
 White : Value
 
@@ -130,7 +123,7 @@ Print ("Result", output)
         1 statement hanya terdiri dari 1 baris
         Menggunakan indentasi
         Harus bersifat spesifik dan simple
-        
+
     Jenis Pseudocode :
         Procedural : cara berpikir runut
         Conditional: jika dibutuhkan suatu percabangan masalah (if else)
