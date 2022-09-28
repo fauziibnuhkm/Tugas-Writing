@@ -3,6 +3,7 @@ Writing dan Presentation Test
 
 Unix Command Line
 
+CLI adalah program yang memungkinkan pengguna mengetik perintah teks yang memerintahkan komputer untuk melakukan tugas tertentu.
     - Shell merupakan sebutan untuk perantara yang digunakan user dan sistem operasi dalam berkomunikasi
     - Contoh terminal basic atau basic shell pada windows adalah powershell dan CMD
     - Command Line merupakan sebutan untuk shell yang berbasis teks
@@ -110,12 +111,6 @@ Algorithm and Pseudocode
         Pemrograman merupakn algoritma dan struktur data
         Data struktur dgunakan untk mngelola sebuah data
         Algoritma menyelesaikan suatu permsalahan menggunakan sebuah data tersebut.
-    Contoh Algoritma
-
-Input 1 = 10
-Input 2 = 5
-Output = Input 1 + Input 2
-Print ("Result", output)
 
     Pseudocode merupakan tools yang digunakan untuk menulis algoritma.
     Panduan menulis pseudocode :
