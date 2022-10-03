@@ -1,4 +1,5 @@
-Ringkasan Materi Week 1
+Tugas Writing - Ringkasan Materi Week 2
+
 Javascript Scope dan Functiong
 Scope adalah konsep dalam flow data variable. Menentukan suatu variable bisa diakses pada scope tertentu atau tidak.
 Selanjutnya yaitu Blocks adalah code yang berada diluar curly braces{}. Conditional, function dan looping menggunakan blocks.
