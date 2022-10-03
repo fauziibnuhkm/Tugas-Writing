@@ -1,6 +1,20 @@
 body{
-    background-color: yellow;
+    background-color: rgb(36, 24, 34);
+    color: #ffffff;
 }
-h1{
-    color:red;
+#video-background{
+    position: relative;
+}
+#video{
+    position:absolute;
+}
+#submit-form-buttom{
+    background: greenyellow;
+}
+#warning {
+    color: #ff0000;
+}
+footer {
+    color: rgb(36, 24, 34);
+    background-color: rgb(154, 205, 50);
 }
