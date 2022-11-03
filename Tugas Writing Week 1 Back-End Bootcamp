@@ -1,0 +1,69 @@
+Ringkasan Materi 1 Back-End Bootcamp
+
+Web Servers & RESTful API
+
+Web server adalah sebuah software (perangkat lunak) yang memberikan layanan berupa data. Berfungsi untuk menerima permintaan HTTP atau HTTPS dari klien atau kita kenal dengan web browser (Chrome, Firefox). Selanjutnya ia akan mengirimkan respon atas permintaan tersebut kepada client dalam bentuk halaman web. Web Servers terdiri dari 2 komponen penting yaitu: Hardware dan Software.
+Hardware
+Di sisi perangkat keras, Web Servers adalah komputer yang menyimpan perangkat lunak server web dan file komponen situs web. (misalnya, dokumen HTML, gambar, CSS stylesheet, dan file JavaScript) Web Servers terhubung ke Internet dan mendukung pertukaran data fisik dengan perangkat lain yang terhubung ke web.
+Software
+Di sisi perangkat lunak, Web Servers mencakup beberapa bagian yang mengontrol bagaimana pengguna web mengakses file yang dihosting. Minimal, ini adalah server HTTP. Server HTTP adalah perangkat lunak yang memahami URL (alamat web) dan HTTP (protokol yang digunakan browser Anda untuk melihat halaman web). Server HTTP dapat diakses melalui nama domain situs web yang disimpannya, dan mengirimkan konten situs web yang dihosting ini ke perangkat pengguna akhir.
+Jenis-jenis Web Server
+1. Web Server Apache
+2. Web Server Nginx	
+3. Web Server IIS
+4. Web Server Lighttpd
+RESTful API / REST API merupakan penerapan dari API (Application Programming Interface). 
+Sedangkan REST (Representional State Transfer) adalah sebuah arsitektur metode komunikasi yang menggunakan protokol HTTP untuk pertukaran data dimana metode ini sering diterapkan dalam pengembangan aplikasi. Dengan tujuannya untuk menjadikan sistem memiliki performa yang baik, cepat dan mudah untuk di kembangkan (scale) terutama dalam pertukaran dan komunikasi data..
+Suatu API akan disebut sebagai RESTful API apabila mampu memenuhi ketentuan dan batasan yang ditetapkan oleh gaya arsitektur REST ini. Kriteria tersebut ditujukan untuk menstandarkan proses komunikasi antar berbagai platform dan menjadikannya lebih fleksibel.
+RESTful API bekerja dengan cara memanipulasi resource dan representasi. Representasi ini saling dipertukarkan di antara pengguna dan server melalui antarmuka terstandar dan protokol komunikasi tertentu, biasanya HTTP. Beberapa batasan arsitektur yang menunjukkan karakter RESTful API yaitu:
+1. Arsitektur client-server
+2. Komunikasi stateless
+3. Cahce
+4. Antarmuka atau interface yang seragam
+5. Sistem lapisan
+
+
+Intro & Essential Node.Js
+
+Node.js adalah runtime environment untuk JavaScript yang bersifat open-source dan cross-platform. Dengan Node.js kita dapat menjalankan kode JavaScript di mana pun, tidak hanya terbatas pada lingkungan browser. Node.js menjalankan V8 JavaScript engine (yang juga merupakan inti dari Google Chrome) di luar browser. Ini memungkinkan Node.js memiliki performa yang tinggi.
+Node.js juga menyediakan banyak library/module JavaScript yang membantu menyederhanakan pengembangan aplikasi web. Berikut ini adalah beberapa fitur penting dari Node.js yang menjadikannya pilihan utama dalam pengembangan aplikasi:
+•	Asynchronous & Event-driven
+Semua API dari Node.js bersifat asynchronous, artinya tidak memblokir proses lain sembari menunggu satu proses selesai. Server Node.js akan melanjutkan ke ke pemanggilan API berikutnya lalu memanfaatkan mekanisme event notification untuk mendapatkan respon dari panggilan API sebelumnya.
+•	Very Fast
+Eksekusi kode dengan Node.js sangat cepat karena berjalan pada V8 JavaScript Engine dari Google Chrome.
+•	Single Threaded but Highly Scalable
+Node.js menggunakan model single thread dengan event looping. Mekanisme ini membantu server untuk merespon secara asynchronous dan menjadikan server lebih scalable dibandingkan server tradisional yang menggunakan banyak thread untuk menangani permintaan.
+Node Js Web Server
+Node.js memiliki built-in modul yang disebut HTTP, built-in modul ini memungkinkan Node JS mentransfer data melalui Hyper Text Transfer Protocol (HTTP).
+Modul HTTP dapat membuat server HTTP yang mendengarkan port server dan memberikan respons kembali ke klien.
+•	Untuk menggunakan modul HTTP, gunakan require()
+•	Gunakan method createServer() untuk membuat server HTTP
+Callback function yang digunakan pada method http.createServer(), akan dijalankan ketika seseorang mencoba mengakses komputer pada port 8080.
+
+
+Express.Js
+
+Express.js adalah framework back end. Artinya, ia bertanggung jawab untuk mengatur fungsionalitas website, seperti pengelolaan routing dan session, permintaan HTTP, penanganan error, serta pertukaran data di server. Nah, framework yang satu ini punya arsitektur MVC (Model View Controller).
+Routes adalah sebuah endpoint yang dapat kita akses menggunakan URL di website. Didalam routes kita perlu menentukan method API, alamat dan response apa saja yang akan dikeluarkan.
+Di dalam route kita dapat mengirim response menggunakan parameter dari route express.js yaitu “res.Send()” untuk mengirim plain text ketika kita mengakses route tersebut. Terdapat banyak response yang bisa kita buat selain yang dicontohkan.
+
+Cara kerja Express.Js dapat dikategorikan menjadi empat. Hal tersebut menyesuaikan dengan fungsi-fungsi yang diterapkan, yaitu:
+1.	Routing: Routing adalah metode yang digunakan website (server) untuk merespons permintaan dari browser (client). Misalnya, permintaan untuk menampilkan halaman tertentu.
+2.	Middleware: Middleware adalah fungsi yang digunakan untuk mengakses permintaan object (req), respons object (res), dan setiap siklus permintaan dan respon tersebut (next).
+3.	Serving Static Files: Static Files adalah file yang dapat diunduh oleh client dari server, contohnya adalah gambar, file CSS, dan file JavaScript. Static files umumnya disimpan di dalam folder public.
+4.	Template Engine: Express.js mendukung berbagai template engine seperti Pug, EJS, Swig, dan Handlebars.
+
+
+Design Database with MySQL
+
+Database atau basis data adalah kumpulan data yang dikelola sedemikian rupa berdasarkan ketentuan tertentu yang saling berhubungan sehingga mudah dalam pengelolaannya. Melalui pengelolaan tersebut pengguna dapat memperoleh kemudahan dalam mencari informasi, menyimpan informasi dan membuang informasi.
+Tujuan utama dari basis data (database) adalah untuk mengatur data atau mengorganisasikan data agar diperoleh kemudahan, ketepatan dan kecepatan dalam pengambilan keputsan kembali.
+
+Ada beberapa yang perlu dilakukan untuk membuat database dengan MySQL:
+1.	Menentukan Entity
+2.	Menentukan Atribbutes dari Entity: Attributes yang di perlukan didalam entity kemungkinan sudah ada di dalam requirements document, atau mungkin juga diperlukan penafsiran kita sendiri sebagai database developer.
+3.	Menentukan Relasi Antar Entity
+4.	Membuat SQL Tabel dari Entity: Setelah kita punya ERD, maka kita akan lanjut dengan create table berdasarkan dengan data yang kita punya.
+
+
+
